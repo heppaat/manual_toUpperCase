@@ -15,7 +15,7 @@ const toUpperCase1 = (char) => {
   return ABC[indexInabc];
 };
 
-let string = "ferencke";
+let string = "pali";
 
 const newArrayUpper = (word, filterFunction) => {
   let result = "";
