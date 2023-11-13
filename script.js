@@ -5,14 +5,14 @@ let geeks_2 = [
   { username: "Pisti", password: "123" },
 ];
 
-function newPassword(list) {
-  if (list.password.length < 5) {
+function newPassword(user) {
+  if (user.password.length < 5) {
     return true;
   }
   return false;
 }
 
-function MyFilter(arr, filterFunction) {
+function MyFilter(arr) {
   let result = [];
   for (let i = 0; arr[i] !== undefined; i++) {
     if (filterFunction(arr[i])) {
